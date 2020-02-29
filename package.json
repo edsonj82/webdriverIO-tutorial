@@ -1,0 +1,34 @@
+{
+  "name": "webdriverio-tutorial",
+  "version": "1.0.0",
+  "description": "this is a webdriverio-tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edsonj82/webdriverIO-tutorial.git"
+  },
+  "author": "Edson José dos Satos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edsonj82/webdriverIO-tutorial/issues"
+  },
+  "homepage": "https://github.com/edsonj82/webdriverIO-tutorial#readme",
+  "devDependencies": {
+    "@wdio/local-runner": "^5.18.7",
+    "@wdio/mocha-framework": "^5.18.7",
+    "@wdio/spec-reporter": "^5.18.7",
+    "@wdio/sync": "^5.18.7",
+    "chai": "^4.2.0",
+    "chai-webdriverio": "^1.0.0",
+    "chromedriver": "^80.0.1",
+    "local-runner": "^0.1.1-alpha",
+    "wdio-chromedriver-service": "^5.0.2",
+    "webdriverio": "^5.18.7"
+  },
+  "dependencies": {
+    "@wdio/cli": "^5.18.7"
+  }
+}
