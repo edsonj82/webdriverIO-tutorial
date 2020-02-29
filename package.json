@@ -4,13 +4,13 @@
   "description": "this is a webdriverio-tutorial",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/wdio wdio.conf.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/edsonj82/webdriverIO-tutorial.git"
   },
-  "author": "Edson José dos Satos",
+  "author": "Edson José dos Santos",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/edsonj82/webdriverIO-tutorial/issues"
